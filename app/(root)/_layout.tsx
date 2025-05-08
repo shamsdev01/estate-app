@@ -7,7 +7,7 @@ export default function AppLayout(){
     const {loading, isLogged}= useGlobalContext();
     if(loading){
         return(
-            <SafeAreaView className="bg-white h-full flex items-center justify-center">
+            <SafeAreaView className="bg-white flex-1 flex items-center justify-center">
                 <ActivityIndicator className="text-primary-300" size="large"/>
             </SafeAreaView>
         )
